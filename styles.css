@@ -63,6 +63,15 @@ body {
     transition: background-color 0.3s ease;   
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
     background-color: #f7e8b2
+}
+
+.user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #f7fcff;
+    text-align: center;
 }
